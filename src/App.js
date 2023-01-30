@@ -3,11 +3,7 @@ import { RouterProvider } from "react-router-dom";
 import { router } from "./navigation/appRouter";
 
 const App = () => {
-  return (
-    <div className="App">
-      <RouterProvider router={router} />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
